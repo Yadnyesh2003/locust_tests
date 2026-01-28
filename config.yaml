@@ -1,0 +1,3 @@
+env: local
+wait_min: 1
+wait_max: 2

@@ -1,0 +1,79 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ===============================
+# Virtual environments
+# ===============================
+venv/
+.env/
+.env.*
+ENV/
+.venv/
+
+# ===============================
+# Environment / Secrets
+# ===============================
+.env
+.env.local
+.env.prod
+.env.test
+
+# JWTs, tokens, secrets (never commit these)
+*.token
+tokens.json
+secrets.json
+
+
+# ===============================
+# Locust specific
+# ===============================
+locust.log
+*.stats.csv
+*.stats_history.csv
+*.html
+reports/
+
+# Locust web UI state (if any)
+.locust/
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# OS / Editor junk
+# ===============================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# PyCharm / IntelliJ
+.idea/
+
+# ===============================
+# Test artifacts / temp data
+# ===============================
+tmp/
+temp/
+.cache/
+
+# ===============================
+# Coverage / reports (if added later)
+# ===============================
+htmlcov/
+.coverage
+coverage.xml

@@ -1,0 +1,1 @@
+from apps.procurement.procurement_user import ProcurementUser
