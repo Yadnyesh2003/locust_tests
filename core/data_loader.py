@@ -1,13 +1,13 @@
-import csv
+import json
 
 class UserPool:
     users = []
     index = 0
 
     @classmethod
-    def load(cls, path="data/users.csv"):
+    def load(cls, path="data/users.json"):
         with open(path) as f:
-            cls.users = list(csv.DictReader(f))
+            cls.users = json.load(f)
 
     @classmethod
     def get_user(cls):

@@ -2,8 +2,10 @@ from Crypto.Cipher import AES
 from Crypto.Util import Counter
 import base64
 import os
+from core.config_loader import Config
 
-SECRET_KEY = "your-secret-key-1234567890abcdef"
+Config.load()
+SECRET_KEY = Config.data["SECRET_KEY"]
 
 
 def encrypt_password(plain_password: str) -> str:

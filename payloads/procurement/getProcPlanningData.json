@@ -1,7 +1,7 @@
 [
     {
       "params": {
-        "releaseDate": "2026-01-22",
+        "releaseDate": "2026-02-03",
         "page": 1,
         "ca": 1,
         "page_size": 100
@@ -10,7 +10,7 @@
     },
     {
       "params": {
-        "releaseDate": "2026-01-23",
+        "releaseDate": "2026-02-02",
         "page": 2,
         "ca": 1,
         "page_size": 50
